@@ -1,0 +1,128 @@
+- !<AssetImportMetadata/d4ccc9b6-e486-47cc-a422-4cca5fc71659>
+  ImportedAssetIds:
+    .hidden/FX_Puff_mat: !<reference> 62ad12c7-2ab2-4798-b586-816ca6c47e5d
+    26ba073d67b9d0dd: !<reference> 6c49f86f-ca6e-455e-a938-75d58ed4b50b
+    4c99d5fbfce3939b: !<reference> 4f8a33d9-6287-4e22-80ec-5471b0c9964d
+    88ab437fd121cc69: !<reference> 2a91dd2d-9806-4bdf-88b4-c09d40b48a83
+    8c2c6f3cf8d060fd: !<reference> 41462ae8-66c3-4fac-a396-f30234f82ceb
+    Materials/FX_Puff_mat: !<reference> 428bbc60-00d4-4192-9cbd-e772861ebfc6
+    Materials/FX_Puff_mat|FX_Puff_mat|GraphPassInfo: !<reference> 36adfc3e-9e2a-41c0-a8e0-739167502828
+    Meshes/FX_Puff: !<reference> ea8e96de-05b0-44f3-988f-980ebf6c0184
+    Scene: !<reference> c5d9dcd4-a4a2-475b-b680-48ee37d5b157
+    fca2550fa04998e2: !<reference> c157dd83-365e-4440-92fd-47ef4ffed7e5
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> c5d9dcd4-a4a2-475b-b680-48ee37d5b157
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 11aef2db-820b-4009-bdaa-25309f0c808d
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    OptimizeMesh: true
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<ObjectPrefabAssetData/11aef2db-820b-4009-bdaa-25309f0c808d>
+  Prototype: !<ObjectOwner/ee9046f4-0bae-43e6-94ad-34872f1d44de>
+    PackagePath: ""
+    objects:
+      - !<own> 6c49f86f-ca6e-455e-56c7-8a2a712b4af4
+- !<SceneObject/2a91dd2d-9806-4bdf-774b-3f62bf4b757c>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 41462ae8-66c3-4fac-5c69-0cfdcb07d314
+  Components:
+    []
+- !<SceneObject/41462ae8-66c3-4fac-5c69-0cfdcb07d314>
+  PrefabRemaps:
+    []
+  Name: Scene0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4f8a33d9-6287-4e22-7f13-ab8e4f3669b2
+  Components:
+    []
+- !<SceneObject/4f8a33d9-6287-4e22-7f13-ab8e4f3669b2>
+  PrefabRemaps:
+    []
+  Name: FX_Puff
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c157dd83-365e-4440-6d02-b810b001281a
+- !<SceneObject/6c49f86f-ca6e-455e-56c7-8a2a712b4af4>
+  PrefabRemaps:
+    []
+  Name: FX_Puff
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2a91dd2d-9806-4bdf-774b-3f62bf4b757c
+  Components:
+    []
+- !<RenderMeshVisual/c157dd83-365e-4440-6d02-b810b001281a>
+  PrefabRemaps:
+    []
+  Name: FX_Puff
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 428bbc60-00d4-4192-9cbd-e772861ebfc6
+  Mesh: !<reference> ea8e96de-05b0-44f3-988f-980ebf6c0184
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

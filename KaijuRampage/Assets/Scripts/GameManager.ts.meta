@@ -1,0 +1,145 @@
+- !<AssetImportMetadata/758044af-02c4-4648-a167-1c2101d6e4c2>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 480429cf-6aa4-44c0-84c1-5f7abba20dd3
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 480429cf-6aa4-44c0-84c1-5f7abba20dd3
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 4c4593cc-8a3e-45b0-badb-932589914fa0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/4c4593cc-8a3e-45b0-badb-932589914fa0>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: c7b6719b-e207-4cdf-b255-7ae38d17e760
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    allowPreviewSimulation: false
+    camera: false
+    cityRoot: false
+    debugLogs: false
+    flashMaterial: false
+    fxPuff: false
+    fxRing: false
+    fxRoot: false
+    fxShard: false
+    fxStar: false
+    gameRoot: false
+    glowMaterial: false
+    hudRoot: false
+    leftClaw: false
+    litMaterial: false
+    panelMaterial: false
+    rightClaw: false
+    sfxAmbient: false
+    sfxButton: false
+    sfxCountdown: false
+    sfxExplode: false
+    sfxLose: false
+    sfxPunch: false
+    sfxSpawn: false
+    sfxStart: false
+    sfxWin: false
+    sfxZap: false
+    syntheticHandTest: false
+    ufoParent: false
+    ufoPrefab: false
+    uiBar: false
+    uiFrame: false
+    uiPanel: false
+    worldQueryModule: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - camera: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gameRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cityRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      ufoParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      fxRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hudRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      leftClaw: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      rightClaw: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      ufoPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      fxShard: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      fxStar: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      fxRing: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      fxPuff: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      uiPanel: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      uiFrame: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      uiBar: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      litMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      glowMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      flashMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      panelMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      sfxPunch: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      sfxExplode: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      sfxZap: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      sfxSpawn: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      sfxButton: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      sfxCountdown: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      sfxStart: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      sfxWin: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      sfxLose: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      sfxAmbient: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      allowPreviewSimulation: true
+      worldQueryModule: !<reference.WorldQueryModule> 00000000-0000-0000-0000-000000000000
+      syntheticHandTest: false
+      debugLogs: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject camera
+    - // @input SceneObject gameRoot
+    - // @input SceneObject cityRoot
+    - // @input SceneObject ufoParent
+    - // @input SceneObject fxRoot
+    - // @input SceneObject hudRoot
+    - // @input SceneObject leftClaw
+    - // @input SceneObject rightClaw
+    - // @input Asset.ObjectPrefab ufoPrefab
+    - // @input Asset.RenderMesh fxShard
+    - // @input Asset.RenderMesh fxStar
+    - // @input Asset.RenderMesh fxRing
+    - // @input Asset.RenderMesh fxPuff
+    - // @input Asset.RenderMesh uiPanel
+    - // @input Asset.RenderMesh uiFrame
+    - // @input Asset.RenderMesh uiBar
+    - // @input Asset.Material litMaterial
+    - // @input Asset.Material glowMaterial
+    - // @input Asset.Material flashMaterial
+    - // @input Asset.Material panelMaterial
+    - // @input Asset.AudioTrackAsset sfxPunch
+    - // @input Asset.AudioTrackAsset sfxExplode
+    - // @input Asset.AudioTrackAsset sfxZap
+    - // @input Asset.AudioTrackAsset sfxSpawn
+    - // @input Asset.AudioTrackAsset sfxButton
+    - // @input Asset.AudioTrackAsset sfxCountdown
+    - // @input Asset.AudioTrackAsset sfxStart
+    - // @input Asset.AudioTrackAsset sfxWin
+    - // @input Asset.AudioTrackAsset sfxLose
+    - // @input Asset.AudioTrackAsset sfxAmbient
+    - '// @input bool allowPreviewSimulation = true {"hint":"Lets the claws be driven by mouse/keyboard in Lens Studio Preview when no tracked hands exist."}'
+    - '// @input Asset.WorldQueryModule worldQueryModule {"hint":"Specs WorldQueryModule – snaps the city onto a real table/desk when one is in a comfortable range."}'
+    - '// @input bool syntheticHandTest {"hint":"EDITOR ONLY: drive the claws with scripted hand skeletons through the real hand-tracking code path."}'
+    - // @input bool debugLogs = true

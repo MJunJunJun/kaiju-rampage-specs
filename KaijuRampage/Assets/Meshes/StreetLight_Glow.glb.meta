@@ -1,0 +1,128 @@
+- !<AssetImportMetadata/24ac2504-2c98-47d6-807e-1b5c79b555e3>
+  ImportedAssetIds:
+    .hidden/StreetLight_Glow_mat: !<reference> 1df7cca7-8e36-4af3-8916-5725fe97305c
+    1a16cd7b5c31ee33: !<reference> 1b57cf20-207d-40b1-a07c-d93e32eca82c
+    26ba073d67b9d0dd: !<reference> c3c56fa2-dc26-4f78-9a56-e541a027e5ca
+    88ab437fd121cc69: !<reference> fa6d0d5f-b195-499b-8b7c-3391a99faf30
+    8c2c6f3cf8d060fd: !<reference> 0b474473-ffa0-4060-af83-15cbdf49835b
+    Materials/StreetLight_Glow_mat: !<reference> 14967c29-273f-4325-bc82-b83e529deb66
+    Materials/StreetLight_Glow_mat|StreetLight_Glow_mat|GraphPassInfo: !<reference> 9cc92ce2-7304-4403-a8b0-a245379ac168
+    Meshes/StreetLight_Glow: !<reference> a673e67e-ee27-44fa-930c-be9e4d5a1aec
+    Scene: !<reference> 3ddf2cab-b169-4cfa-beb2-a53cc06ceb50
+    e619d2beac7ecb50: !<reference> a3ed6a93-acc5-4f08-83a5-fae4252224ce
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> 3ddf2cab-b169-4cfa-beb2-a53cc06ceb50
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 26435a66-d173-47b9-8ce7-f2c4326c3140
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    OptimizeMesh: true
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/0b474473-ffa0-4060-507c-ea3420b67ca4>
+  PrefabRemaps:
+    []
+  Name: Scene0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a3ed6a93-acc5-4f08-7c5a-051bdadddb31
+  Components:
+    []
+- !<RenderMeshVisual/1b57cf20-207d-40b1-5f83-26c1cd1357d3>
+  PrefabRemaps:
+    []
+  Name: StreetLight_Glow
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 14967c29-273f-4325-bc82-b83e529deb66
+  Mesh: !<reference> a673e67e-ee27-44fa-930c-be9e4d5a1aec
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/26435a66-d173-47b9-8ce7-f2c4326c3140>
+  Prototype: !<ObjectOwner/021e65b7-7842-40d8-9cf7-6fc13c42326d>
+    PackagePath: ""
+    objects:
+      - !<own> c3c56fa2-dc26-4f78-65a9-1abe5fd81a35
+- !<SceneObject/a3ed6a93-acc5-4f08-7c5a-051bdadddb31>
+  PrefabRemaps:
+    []
+  Name: StreetLight_Glow
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1b57cf20-207d-40b1-5f83-26c1cd1357d3
+- !<SceneObject/c3c56fa2-dc26-4f78-65a9-1abe5fd81a35>
+  PrefabRemaps:
+    []
+  Name: StreetLight_Glow
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> fa6d0d5f-b195-499b-7483-cc6e566050cf
+  Components:
+    []
+- !<SceneObject/fa6d0d5f-b195-499b-7483-cc6e566050cf>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0b474473-ffa0-4060-507c-ea3420b67ca4
+  Components:
+    []

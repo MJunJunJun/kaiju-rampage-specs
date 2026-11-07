@@ -1,0 +1,128 @@
+- !<AssetImportMetadata/d7f79b12-e577-423d-a877-a5bd363422f5>
+  ImportedAssetIds:
+    .hidden/UI_Bar_mat: !<reference> c9311d73-1014-4a8f-a59b-fb03eafa4fe8
+    26ba073d67b9d0dd: !<reference> 69cc10c3-faea-48fd-b96e-e094334a62fd
+    763cd4e12f52dc43: !<reference> c18ff789-2f71-4d4f-b6b1-7eccb9a302fc
+    88ab437fd121cc69: !<reference> 061a8980-5cc7-476d-94f3-9011ece13173
+    8c2c6f3cf8d060fd: !<reference> 5b71ba18-d684-4ecb-9436-f49fc637de2d
+    Materials/UI_Bar_mat: !<reference> 4d30bf6b-a4c1-4181-abf4-d417432ead2e
+    Materials/UI_Bar_mat|UI_Bar_mat|GraphPassInfo: !<reference> 705b9e52-0755-423b-8203-48d6f7caf8e6
+    Meshes/UI_Bar: !<reference> bb5535a3-ad06-43c1-ad07-944d4b815a6a
+    Scene: !<reference> 04a97899-f1cb-4470-9d79-123be407c38f
+    c811c1a86f7c3f61: !<reference> 3120e774-c888-4949-bfd9-c864370bbd5b
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> 04a97899-f1cb-4470-9d79-123be407c38f
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> e85848c8-eb53-48ae-baba-c6b77ca373f1
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    OptimizeMesh: true
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/061a8980-5cc7-476d-6b0c-6fee131ece8c>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5b71ba18-d684-4ecb-6bc9-0b6039c821d2
+  Components:
+    []
+- !<RenderMeshVisual/3120e774-c888-4949-4026-379bc8f442a4>
+  PrefabRemaps:
+    []
+  Name: UI_Bar
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4d30bf6b-a4c1-4181-abf4-d417432ead2e
+  Mesh: !<reference> bb5535a3-ad06-43c1-ad07-944d4b815a6a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/5b71ba18-d684-4ecb-6bc9-0b6039c821d2>
+  PrefabRemaps:
+    []
+  Name: Scene0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> c18ff789-2f71-4d4f-494e-8133465cfd03
+  Components:
+    []
+- !<SceneObject/69cc10c3-faea-48fd-4691-1f6bccb59d02>
+  PrefabRemaps:
+    []
+  Name: UI_Bar
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 061a8980-5cc7-476d-6b0c-6fee131ece8c
+  Components:
+    []
+- !<SceneObject/c18ff789-2f71-4d4f-494e-8133465cfd03>
+  PrefabRemaps:
+    []
+  Name: UI_Bar
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3120e774-c888-4949-4026-379bc8f442a4
+- !<ObjectPrefabAssetData/e85848c8-eb53-48ae-baba-c6b77ca373f1>
+  Prototype: !<ObjectOwner/1a591663-b5bf-42a5-99c0-539097e9ee01>
+    PackagePath: ""
+    objects:
+      - !<own> 69cc10c3-faea-48fd-4691-1f6bccb59d02

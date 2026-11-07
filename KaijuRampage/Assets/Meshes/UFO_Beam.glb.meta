@@ -1,0 +1,128 @@
+- !<AssetImportMetadata/64d2de02-1e82-4574-8803-225e7efb7912>
+  ImportedAssetIds:
+    .hidden/UFO_Beam_mat: !<reference> d393a89d-8d61-460c-8def-745adc3bd6b3
+    1480a0a5c5af402e: !<reference> 85fdf8f2-3298-4640-a0e8-4007f9f0546d
+    26ba073d67b9d0dd: !<reference> 0d0425fc-aa45-4c2b-8f75-12d9ce23609e
+    661150b22317f449: !<reference> a998ab88-93e8-43d3-8185-504a4f758951
+    88ab437fd121cc69: !<reference> 440bba4c-f49a-49bb-ab68-05546a1ec456
+    8c2c6f3cf8d060fd: !<reference> 1272b121-c183-4bc1-99a6-d00a88c9ad56
+    Materials/UFO_Beam_mat: !<reference> 6eb11e2c-368f-4352-9542-663fb21a0e34
+    Materials/UFO_Beam_mat|UFO_Beam_mat|GraphPassInfo: !<reference> ec2b2baa-0013-4214-93e4-1e09cfd2b026
+    Meshes/UFO_Beam: !<reference> 2999e808-03ac-4d00-9724-176c2be2a5b0
+    Scene: !<reference> f5fd5fc6-3294-4612-9cc6-285154d3a1f1
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> f5fd5fc6-3294-4612-9cc6-285154d3a1f1
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 660e0fa3-83f8-4478-8aa8-3566a31b8ad5
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    OptimizeMesh: true
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/0d0425fc-aa45-4c2b-708a-ed2631dc9f61>
+  PrefabRemaps:
+    []
+  Name: UFO_Beam
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 440bba4c-f49a-49bb-5497-faab95e13ba9
+  Components:
+    []
+- !<SceneObject/1272b121-c183-4bc1-6659-2ff5773652a9>
+  PrefabRemaps:
+    []
+  Name: Scene0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a998ab88-93e8-43d3-7e7a-afb5b08a76ae
+  Components:
+    []
+- !<SceneObject/440bba4c-f49a-49bb-5497-faab95e13ba9>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1272b121-c183-4bc1-6659-2ff5773652a9
+  Components:
+    []
+- !<ObjectPrefabAssetData/660e0fa3-83f8-4478-8aa8-3566a31b8ad5>
+  Prototype: !<ObjectOwner/5b5b481b-6714-4e67-abe4-f8593148c592>
+    PackagePath: ""
+    objects:
+      - !<own> 0d0425fc-aa45-4c2b-708a-ed2631dc9f61
+- !<RenderMeshVisual/85fdf8f2-3298-4640-5f17-bff8060fab92>
+  PrefabRemaps:
+    []
+  Name: UFO_Beam
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6eb11e2c-368f-4352-9542-663fb21a0e34
+  Mesh: !<reference> 2999e808-03ac-4d00-9724-176c2be2a5b0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a998ab88-93e8-43d3-7e7a-afb5b08a76ae>
+  PrefabRemaps:
+    []
+  Name: UFO_Beam
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 85fdf8f2-3298-4640-5f17-bff8060fab92

@@ -1,0 +1,128 @@
+- !<AssetImportMetadata/4082a966-cc42-489e-a82a-2653775ff144>
+  ImportedAssetIds:
+    .hidden/FX_Shard_mat: !<reference> 25f2e3ac-df4c-4d96-a11a-76882f46dc25
+    26ba073d67b9d0dd: !<reference> cddbf723-0345-48e9-adb2-063934d4f040
+    88ab437fd121cc69: !<reference> 2606fbc8-4cd9-4372-a2b9-b71bd6adebee
+    8c2c6f3cf8d060fd: !<reference> a9ce2a3b-9860-430c-9925-bb2aa2083868
+    Materials/FX_Shard_mat: !<reference> c19f0b36-9985-47c7-9d1f-b199471e9a74
+    Materials/FX_Shard_mat|FX_Shard_mat|GraphPassInfo: !<reference> 8871d2ee-fc09-469e-81e7-162996acd358
+    Meshes/FX_Shard: !<reference> 249570bb-3872-4b21-bc73-e54caff9ec25
+    Scene: !<reference> a83d51a4-eeaa-4a31-9ca0-0af48fca66b1
+    a949dc5cb0e372b8: !<reference> f270d37d-f25f-4a2b-9b9a-8a8d9a46d3de
+    c0bb464d2bd7435a: !<reference> 5bd9c591-c06c-4ff9-88b0-ec5591f54808
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> a83d51a4-eeaa-4a31-9ca0-0af48fca66b1
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 142a2000-d195-4dd8-a079-f4826b5fa789
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    OptimizeMesh: true
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<ObjectPrefabAssetData/142a2000-d195-4dd8-a079-f4826b5fa789>
+  Prototype: !<ObjectOwner/3c78dd0f-62d5-483e-b5c0-d25a4338c830>
+    PackagePath: ""
+    objects:
+      - !<own> cddbf723-0345-48e9-524d-f9c6cb2b0fbf
+- !<SceneObject/2606fbc8-4cd9-4372-5d46-48e429521411>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a9ce2a3b-9860-430c-66da-44d55df7c797
+  Components:
+    []
+- !<SceneObject/5bd9c591-c06c-4ff9-774f-13aa6e0ab7f7>
+  PrefabRemaps:
+    []
+  Name: FX_Shard
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f270d37d-f25f-4a2b-6465-757265b92c21
+- !<SceneObject/a9ce2a3b-9860-430c-66da-44d55df7c797>
+  PrefabRemaps:
+    []
+  Name: Scene0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5bd9c591-c06c-4ff9-774f-13aa6e0ab7f7
+  Components:
+    []
+- !<SceneObject/cddbf723-0345-48e9-524d-f9c6cb2b0fbf>
+  PrefabRemaps:
+    []
+  Name: FX_Shard
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2606fbc8-4cd9-4372-5d46-48e429521411
+  Components:
+    []
+- !<RenderMeshVisual/f270d37d-f25f-4a2b-6465-757265b92c21>
+  PrefabRemaps:
+    []
+  Name: FX_Shard
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c19f0b36-9985-47c7-9d1f-b199471e9a74
+  Mesh: !<reference> 249570bb-3872-4b21-bc73-e54caff9ec25
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

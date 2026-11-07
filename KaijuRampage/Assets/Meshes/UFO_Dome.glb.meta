@@ -1,0 +1,128 @@
+- !<AssetImportMetadata/f05a1360-3674-4855-a858-53debe91fa97>
+  ImportedAssetIds:
+    .hidden/UFO_Dome_mat: !<reference> 3e4cd14b-2740-48db-9d94-fd6bc6c99573
+    26ba073d67b9d0dd: !<reference> 31edb742-73a0-494f-84b8-e1774abf8be9
+    686b208bccc41d00: !<reference> b8119483-d82e-4b8f-acb4-2ae873eaf7ed
+    88ab437fd121cc69: !<reference> 44adf2b9-f240-44be-9b28-4d5c534be68d
+    8c2c6f3cf8d060fd: !<reference> 71ffd7d5-361d-4c4e-95d4-a6b6722828e4
+    9779c2e8ee95dc7e: !<reference> dfd66c8e-6fa5-4cc2-9c64-4a4fbf01d026
+    Materials/UFO_Dome_mat: !<reference> e32f8b1d-d542-4e1d-8964-3e270a7fb462
+    Materials/UFO_Dome_mat|UFO_Dome_mat|GraphPassInfo: !<reference> 7e989168-99a6-4c74-a816-e33d1ff12e93
+    Meshes/UFO_Dome: !<reference> 1b99ce40-c289-4daf-ae34-b867f7ce37d3
+    Scene: !<reference> 70155d26-117b-435e-ae0d-8a90c2147b12
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> 70155d26-117b-435e-ae0d-8a90c2147b12
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> c2f8da40-753b-43fb-b4d1-d677b1d82c79
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    OptimizeMesh: true
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/31edb742-73a0-494f-7b47-1e88b5407416>
+  PrefabRemaps:
+    []
+  Name: UFO_Dome
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 44adf2b9-f240-44be-64d7-b2a3acb41972
+  Components:
+    []
+- !<SceneObject/44adf2b9-f240-44be-64d7-b2a3acb41972>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 71ffd7d5-361d-4c4e-6a2b-59498dd7d71b
+  Components:
+    []
+- !<SceneObject/71ffd7d5-361d-4c4e-6a2b-59498dd7d71b>
+  PrefabRemaps:
+    []
+  Name: Scene0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> b8119483-d82e-4b8f-534b-d5178c150812
+  Components:
+    []
+- !<SceneObject/b8119483-d82e-4b8f-534b-d5178c150812>
+  PrefabRemaps:
+    []
+  Name: UFO_Dome
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> dfd66c8e-6fa5-4cc2-639b-b5b040fe2fd9
+- !<ObjectPrefabAssetData/c2f8da40-753b-43fb-b4d1-d677b1d82c79>
+  Prototype: !<ObjectOwner/3196df80-4020-4dea-abe8-fee5ab31afcf>
+    PackagePath: ""
+    objects:
+      - !<own> 31edb742-73a0-494f-7b47-1e88b5407416
+- !<RenderMeshVisual/dfd66c8e-6fa5-4cc2-639b-b5b040fe2fd9>
+  PrefabRemaps:
+    []
+  Name: UFO_Dome
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e32f8b1d-d542-4e1d-8964-3e270a7fb462
+  Mesh: !<reference> 1b99ce40-c289-4daf-ae34-b867f7ce37d3
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

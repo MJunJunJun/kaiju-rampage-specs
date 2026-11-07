@@ -1,0 +1,128 @@
+- !<AssetImportMetadata/31c6f27f-c5e3-49b1-8006-bf1da4a484b1>
+  ImportedAssetIds:
+    .hidden/CityPlatform_mat: !<reference> b4c34367-5062-47d3-a9a0-bd1c44dc991a
+    26ba073d67b9d0dd: !<reference> 6df7a24c-4611-42f4-95d3-53ed13efb363
+    73cc128a5cc2ced5: !<reference> f87ae031-fc2b-40e8-98a5-c8968fa0e5b8
+    88ab437fd121cc69: !<reference> 16c8ae24-9ab8-4e58-b446-a701413a4a29
+    8c2c6f3cf8d060fd: !<reference> da39f7ad-3403-4a81-916e-613ae0cc6735
+    Materials/CityPlatform_mat: !<reference> cf537b48-7500-4c70-b17a-0b5d1708a0d8
+    Materials/CityPlatform_mat|CityPlatform_mat|GraphPassInfo: !<reference> afe05ec8-5273-41f3-98b1-f6e943a9f2b6
+    Meshes/CityPlatform: !<reference> 0b6bb428-ecc9-488c-ad33-b6d74d0038c0
+    Scene: !<reference> 94895223-8d87-4a2e-8140-af14e8243a34
+    d3cc20d50362bbbf: !<reference> 05065a53-b675-47e6-a822-8328085f9139
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> 94895223-8d87-4a2e-8140-af14e8243a34
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 7d50e668-6203-4b1a-b480-1a069acdf9b7
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    OptimizeMesh: true
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/05065a53-b675-47e6-57dd-7cd7f7a06ec6>
+  PrefabRemaps:
+    []
+  Name: CityPlatform
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f87ae031-fc2b-40e8-675a-3769705f1a47
+- !<SceneObject/16c8ae24-9ab8-4e58-4bb9-58febec5b5d6>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> da39f7ad-3403-4a81-6e91-9ec51f3398ca
+  Components:
+    []
+- !<SceneObject/6df7a24c-4611-42f4-6a2c-ac12ec104c9c>
+  PrefabRemaps:
+    []
+  Name: CityPlatform
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 16c8ae24-9ab8-4e58-4bb9-58febec5b5d6
+  Components:
+    []
+- !<ObjectPrefabAssetData/7d50e668-6203-4b1a-b480-1a069acdf9b7>
+  Prototype: !<ObjectOwner/2c82c60f-f619-474a-8fc2-7c0dafd91d1b>
+    PackagePath: ""
+    objects:
+      - !<own> 6df7a24c-4611-42f4-6a2c-ac12ec104c9c
+- !<SceneObject/da39f7ad-3403-4a81-6e91-9ec51f3398ca>
+  PrefabRemaps:
+    []
+  Name: Scene0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 05065a53-b675-47e6-57dd-7cd7f7a06ec6
+  Components:
+    []
+- !<RenderMeshVisual/f87ae031-fc2b-40e8-675a-3769705f1a47>
+  PrefabRemaps:
+    []
+  Name: CityPlatform
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> cf537b48-7500-4c70-b17a-0b5d1708a0d8
+  Mesh: !<reference> 0b6bb428-ecc9-488c-ad33-b6d74d0038c0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

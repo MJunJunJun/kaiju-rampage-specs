@@ -1,0 +1,128 @@
+- !<AssetImportMetadata/8d806313-07bc-40cb-b61b-d3e4517a734d>
+  ImportedAssetIds:
+    .hidden/Building4_Glow_mat: !<reference> 17f7a2c8-b8da-49d3-9fad-2b7cbafb3a46
+    26ba073d67b9d0dd: !<reference> d5b5de33-a4c8-4aa6-97d7-2f20b36a68fc
+    3bfa01684752288e: !<reference> 1aa12e35-95a6-4a1a-a95d-31c34206d5c7
+    3cf766c951087854: !<reference> 8e3c6c69-bade-4395-8ac7-437bf1cfc4ca
+    88ab437fd121cc69: !<reference> 429554e1-32cd-4746-bd81-29013b5211cf
+    8c2c6f3cf8d060fd: !<reference> 3c57d1f5-d6d3-45bf-aa33-c5d37daf20bf
+    Materials/Building4_Glow_mat: !<reference> 362b0cad-6805-47ed-a89f-16a6c8a0f310
+    Materials/Building4_Glow_mat|Building4_Glow_mat|GraphPassInfo: !<reference> febb81d1-c1a9-4be8-b7a0-cd21ddbd1e44
+    Meshes/Building4_Glow: !<reference> 1e44f8ee-344b-4a32-9985-6f52efe0479a
+    Scene: !<reference> a5a79a80-d375-4844-98cc-5494f1c29d37
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> a5a79a80-d375-4844-98cc-5494f1c29d37
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 041b2b86-ce1b-4f54-affc-4ebef09b3bb2
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    OptimizeMesh: true
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<ObjectPrefabAssetData/041b2b86-ce1b-4f54-affc-4ebef09b3bb2>
+  Prototype: !<ObjectOwner/0ffb4ba9-99a3-4272-8e1c-c3fa994b2ba3>
+    PackagePath: ""
+    objects:
+      - !<own> d5b5de33-a4c8-4aa6-6828-d0df4c959703
+- !<SceneObject/1aa12e35-95a6-4a1a-56a2-ce3cbdf92a38>
+  PrefabRemaps:
+    []
+  Name: Building4_Glow
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8e3c6c69-bade-4395-7538-bc840e303b35
+- !<SceneObject/3c57d1f5-d6d3-45bf-55cc-3a2c8250df40>
+  PrefabRemaps:
+    []
+  Name: Scene0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1aa12e35-95a6-4a1a-56a2-ce3cbdf92a38
+  Components:
+    []
+- !<SceneObject/429554e1-32cd-4746-427e-d6fec4adee30>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3c57d1f5-d6d3-45bf-55cc-3a2c8250df40
+  Components:
+    []
+- !<RenderMeshVisual/8e3c6c69-bade-4395-7538-bc840e303b35>
+  PrefabRemaps:
+    []
+  Name: Building4_Glow
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 362b0cad-6805-47ed-a89f-16a6c8a0f310
+  Mesh: !<reference> 1e44f8ee-344b-4a32-9985-6f52efe0479a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d5b5de33-a4c8-4aa6-6828-d0df4c959703>
+  PrefabRemaps:
+    []
+  Name: Building4_Glow
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 429554e1-32cd-4746-427e-d6fec4adee30
+  Components:
+    []

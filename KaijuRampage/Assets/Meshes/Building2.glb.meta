@@ -1,0 +1,128 @@
+- !<AssetImportMetadata/e83dc9f4-d2fc-4b9f-a414-421b51b91dd6>
+  ImportedAssetIds:
+    .hidden/Building2_mat: !<reference> 2c437e43-6454-4a06-b085-21abd5d8b388
+    1a33705890ed44aa: !<reference> e17b8a13-452e-4d0b-a38b-6ea75c9c24e4
+    26ba073d67b9d0dd: !<reference> bf815665-7a49-4269-ac03-bfa97f0c7590
+    875436af0c1a08bc: !<reference> d9f0b388-7ef3-4541-a04d-b03b077daceb
+    88ab437fd121cc69: !<reference> c65ac249-a8d9-4864-b128-8899918a775d
+    8c2c6f3cf8d060fd: !<reference> 6ab32405-89da-4aab-9fe1-44bd2c782d53
+    Materials/Building2_mat: !<reference> 7468350c-036d-480d-ac9a-675c3e18805e
+    Materials/Building2_mat|Building2_mat|GraphPassInfo: !<reference> 30576a84-39b9-4634-a3af-364ded2e9819
+    Meshes/Building2: !<reference> 6e2abf51-d8ed-4c3d-899c-f21da5b3c35e
+    Scene: !<reference> bd90e57c-1a99-413c-b911-bd02fb34e3f6
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> bd90e57c-1a99-413c-b911-bd02fb34e3f6
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> cc5b2bb5-fd90-4a5c-a822-41edc795951f
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    OptimizeMesh: true
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/6ab32405-89da-4aab-601e-bb42d387d2ac>
+  PrefabRemaps:
+    []
+  Name: Scene0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d9f0b388-7ef3-4541-5fb2-4fc4f8825314
+  Components:
+    []
+- !<SceneObject/bf815665-7a49-4269-53fc-405680f38a6f>
+  PrefabRemaps:
+    []
+  Name: Building2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> c65ac249-a8d9-4864-4ed7-77666e7588a2
+  Components:
+    []
+- !<SceneObject/c65ac249-a8d9-4864-4ed7-77666e7588a2>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6ab32405-89da-4aab-601e-bb42d387d2ac
+  Components:
+    []
+- !<ObjectPrefabAssetData/cc5b2bb5-fd90-4a5c-a822-41edc795951f>
+  Prototype: !<ObjectOwner/c8d05500-fb6d-4e4d-992f-62eb5abbc086>
+    PackagePath: ""
+    objects:
+      - !<own> bf815665-7a49-4269-53fc-405680f38a6f
+- !<SceneObject/d9f0b388-7ef3-4541-5fb2-4fc4f8825314>
+  PrefabRemaps:
+    []
+  Name: Building2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e17b8a13-452e-4d0b-5c74-9158a363db1b
+- !<RenderMeshVisual/e17b8a13-452e-4d0b-5c74-9158a363db1b>
+  PrefabRemaps:
+    []
+  Name: Building2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 7468350c-036d-480d-ac9a-675c3e18805e
+  Mesh: !<reference> 6e2abf51-d8ed-4c3d-899c-f21da5b3c35e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

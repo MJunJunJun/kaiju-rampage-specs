@@ -1,0 +1,128 @@
+- !<AssetImportMetadata/c1cb578b-22e5-4afc-9c39-af111034939b>
+  ImportedAssetIds:
+    .hidden/KaijuClaw_L_Glow_mat: !<reference> 7d73ddbb-411e-47d9-8951-59d7fd6ac047
+    26ba073d67b9d0dd: !<reference> 69bd2516-abd5-4f5e-9001-c95e1da59dc7
+    7b9f2f99b485c908: !<reference> 190e0203-c378-4b49-8bfd-94098a0d7b5a
+    88ab437fd121cc69: !<reference> 8768bb33-62ce-4507-bc54-07b3541994ac
+    8c2c6f3cf8d060fd: !<reference> dd772c11-df44-48de-912a-1ca01bb2c446
+    9b3fee03d25ea5c4: !<reference> 33210156-3fbb-4c45-b561-7e86a2a4b23c
+    Materials/KaijuClaw_L_Glow_mat: !<reference> ba90aed4-8a4c-4934-aaf8-dd909843de3c
+    Materials/KaijuClaw_L_Glow_mat|KaijuClaw_L_Glow_mat|GraphPassInfo: !<reference> 8152ef7d-fadb-4ea7-8e16-388c1f59f7da
+    Meshes/KaijuClaw_L_Glow: !<reference> 91ad8dc3-6b42-4f02-a984-85179dd9455e
+    Scene: !<reference> 248b53a9-14da-4bba-b99e-0df9fa5311f1
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> 248b53a9-14da-4bba-b99e-0df9fa5311f1
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> f3c67ac4-8ba3-408c-b509-d360e532795a
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    OptimizeMesh: true
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/190e0203-c378-4b49-7402-6bf675f284a5>
+  PrefabRemaps:
+    []
+  Name: KaijuClaw_L_Glow
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 33210156-3fbb-4c45-4a9e-81795d5b4dc3
+- !<RenderMeshVisual/33210156-3fbb-4c45-4a9e-81795d5b4dc3>
+  PrefabRemaps:
+    []
+  Name: KaijuClaw_L_Glow
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ba90aed4-8a4c-4934-aaf8-dd909843de3c
+  Mesh: !<reference> 91ad8dc3-6b42-4f02-a984-85179dd9455e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/69bd2516-abd5-4f5e-6ffe-36a1e25a6238>
+  PrefabRemaps:
+    []
+  Name: KaijuClaw_L_Glow
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8768bb33-62ce-4507-43ab-f84cabe66b53
+  Components:
+    []
+- !<SceneObject/8768bb33-62ce-4507-43ab-f84cabe66b53>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> dd772c11-df44-48de-6ed5-e35fe44d3bb9
+  Components:
+    []
+- !<SceneObject/dd772c11-df44-48de-6ed5-e35fe44d3bb9>
+  PrefabRemaps:
+    []
+  Name: Scene0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 190e0203-c378-4b49-7402-6bf675f284a5
+  Components:
+    []
+- !<ObjectPrefabAssetData/f3c67ac4-8ba3-408c-b509-d360e532795a>
+  Prototype: !<ObjectOwner/690d5228-2b57-42c6-902e-e69b5a478246>
+    PackagePath: ""
+    objects:
+      - !<own> 69bd2516-abd5-4f5e-6ffe-36a1e25a6238

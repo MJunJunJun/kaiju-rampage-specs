@@ -1,0 +1,128 @@
+- !<AssetImportMetadata/30eece44-e3ea-49e7-ab0c-de543e0ed97f>
+  ImportedAssetIds:
+    .hidden/UFO_Neon_mat: !<reference> e0345b00-3e33-49e2-82ae-8f17f667a07e
+    26ba073d67b9d0dd: !<reference> bebe3004-c6fe-4553-abc7-d26383be18d7
+    88ab437fd121cc69: !<reference> 43dfec2f-e96e-4378-ac38-32fff7784d1a
+    8c2c6f3cf8d060fd: !<reference> ccbda9e5-d496-43c7-bc4c-020597e0cecc
+    Materials/UFO_Neon_mat: !<reference> 776be2ed-6875-4b26-985f-22e50d5fee50
+    Materials/UFO_Neon_mat|UFO_Neon_mat|GraphPassInfo: !<reference> 0ae14619-7f59-4a23-8c08-b7add545b0ab
+    Meshes/UFO_Neon: !<reference> 9478dd1f-92cb-4b8b-9124-ef43ec16e0ee
+    Scene: !<reference> 70e05da9-e4c8-4de5-bb86-e31b4a07aa79
+    a79b4481cfe2ad03: !<reference> 33e070ba-5365-479d-981e-6adf04a54cdf
+    f2b4af7f82902035: !<reference> 7beb7cc1-d67c-4a5c-ae54-69d0609902ed
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> 70e05da9-e4c8-4de5-bb86-e31b4a07aa79
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 463104c3-f3f1-4333-b4e6-085a8f0702f5
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    OptimizeMesh: true
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<RenderMeshVisual/33e070ba-5365-479d-67e1-9520fb5ab320>
+  PrefabRemaps:
+    []
+  Name: UFO_Neon
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 776be2ed-6875-4b26-985f-22e50d5fee50
+  Mesh: !<reference> 9478dd1f-92cb-4b8b-9124-ef43ec16e0ee
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/43dfec2f-e96e-4378-53c7-cd000887b2e5>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> ccbda9e5-d496-43c7-43b3-fdfa681f3133
+  Components:
+    []
+- !<ObjectPrefabAssetData/463104c3-f3f1-4333-b4e6-085a8f0702f5>
+  Prototype: !<ObjectOwner/5bed7e93-f7ba-44bb-b6c2-36073970478b>
+    PackagePath: ""
+    objects:
+      - !<own> bebe3004-c6fe-4553-5438-2d9c7c41e728
+- !<SceneObject/7beb7cc1-d67c-4a5c-51ab-962f9f66fd12>
+  PrefabRemaps:
+    []
+  Name: UFO_Neon
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 33e070ba-5365-479d-67e1-9520fb5ab320
+- !<SceneObject/bebe3004-c6fe-4553-5438-2d9c7c41e728>
+  PrefabRemaps:
+    []
+  Name: UFO_Neon
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 43dfec2f-e96e-4378-53c7-cd000887b2e5
+  Components:
+    []
+- !<SceneObject/ccbda9e5-d496-43c7-43b3-fdfa681f3133>
+  PrefabRemaps:
+    []
+  Name: Scene0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7beb7cc1-d67c-4a5c-51ab-962f9f66fd12
+  Components:
+    []
